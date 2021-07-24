@@ -46,6 +46,7 @@ nav div2 ul li{
 }
 nav div2 ul li:hover{
     opacity: 0.4;
+    cursor: pointer;
 }
 nav div2 ul li a img{
     height: 25px;
