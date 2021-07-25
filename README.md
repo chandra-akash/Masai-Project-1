@@ -54,13 +54,13 @@ Not responsive yet and might not be properly visible on small screen devices
 ## Team Members and Contributors 😇 :
 <ul>
   <b>👤 Nikhil Gupta </b>
-  <li><i>Github:</i>https://github.com/NikhilGuptan</li>
+  <li><i>Github:</i>https://github.com/NikhilGuptan</li><br>
   
   <b>👤 Sharad Dethe </b>
-  <li><i>Github:</i></li>
+  <li><i>Github:</i></li><br>
   
   <b>👤 Anup Kumar Pandey </b>
-  <li><i>Github:</i></li>
+  <li><i>Github:</i></li><br>
   
   <b>👤 Akash Chandra </b>
   <li><i>Github:</i>https://github.com/chandra-akash</li>
