@@ -3,7 +3,7 @@ Project-1: make a clone of https://www.cult.fit/ site
 
 &nbsp;&nbsp;&nbsp;&nbsp;Hello there, you might have seen the CultFit Website. <br> *This is a health and fitness company, offering digital and offline experiences across fitness, nutrition, and mental well-being. yoga and meditation, and medical and lifestyle care hassle-free. At Cult, They says that, they make fitness fun and easy. They have best-in-class trainers & offer group workouts ranging from yoga to Boxing. Their workouts can be done both at a cult center and at home with the help of do it yourself (DIY) workout videos. Cult.fiuses the best in technology to give you a world-class experience. You can book classes, follow workout videos - all with the click of a button from the cult.fit app or website.* <br>
 
-&nbsp;&nbsp;&nbsp;&#160;In this project we have tried to make a look alike clone of CouchSurfing. With our efforts and the technology stack, that we have learned till now in Unit-2 in the masai school, we were able to clone the front end with same looking & features. <br><br>
+&nbsp;&nbsp;&nbsp;&#160;In this project we have tried to make a look alike clone of CultFit Website. With our efforts and the technology stack, that we have learned till now in Unit-2 in the masai school, we were able to clone the front end with same looking & features. <br><br>
 
 ## Technology Stack Used
 *In this project we have used the following tech stack:*
