@@ -21,8 +21,8 @@ All the image and icon links have been taken from the main website ( https://www
 <ol>
 <li>Landing Page ( <i>Home</i> Page):</li> ![1 Home Clone-CultFit](https://user-images.githubusercontent.com/83694840/126890057-4f2db3bd-9e68-43bf-b095-e0c2906421a4.png)
 <li> <i>Login</i> Popup:</li>
-  ![3 login Popup1](https://user-images.githubusercontent.com/83694840/126890182-8d88fbc7-1939-467e-8818-f173c9aaa726.png)
-  ![4 login Popup2](https://user-images.githubusercontent.com/83694840/126890185-af6d56fc-411c-40f9-b5f3-f929ba6bdb8d.png)
+ 1> ![3 login Popup1](https://user-images.githubusercontent.com/83694840/126890182-8d88fbc7-1939-467e-8818-f173c9aaa726.png)
+ <br> 2> ![4 login Popup2](https://user-images.githubusercontent.com/83694840/126890185-af6d56fc-411c-40f9-b5f3-f929ba6bdb8d.png)
 <li> <i>Profile</i> :</li>
   ![5 InkedProfile_LI](https://user-images.githubusercontent.com/83694840/126890219-9f643aa1-b595-45fc-96e4-d1a8f244976f.jpg)
 <li> <i>Location</i> Popup:</li>
@@ -34,8 +34,8 @@ All the image and icon links have been taken from the main website ( https://www
 <li> <i>Cart</i> page:🛒</li>
   ![8 Cart](https://user-images.githubusercontent.com/83694840/126890440-7f930bba-2e80-4c4f-bb24-880e3d02128a.png)
 <li> <i>Payment</i> page:</li>
-  ![9 Payment](https://user-images.githubusercontent.com/83694840/126890460-ca5e3247-c9a5-4daa-ab57-438eaf38f33f.png)
-  ![10 Payment2](https://user-images.githubusercontent.com/83694840/126890464-7d6c6970-2aef-4d8b-a4be-da37c2987546.png)
+ 1> ![9 Payment](https://user-images.githubusercontent.com/83694840/126890460-ca5e3247-c9a5-4daa-ab57-438eaf38f33f.png)
+ <br> 2> ![10 Payment2](https://user-images.githubusercontent.com/83694840/126890464-7d6c6970-2aef-4d8b-a4be-da37c2987546.png)
 <li> <i>Thank You Pop Up after making payment</i> </li>
   ![11 Thank You Pop up](https://user-images.githubusercontent.com/83694840/126890486-44baabfc-481a-4dfb-a0fd-2ae5ee5c3f4c.png)
 </ol>
