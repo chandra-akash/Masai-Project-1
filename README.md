@@ -50,7 +50,7 @@ Not responsive yet and might not be properly visible on small screen devices
 (Recomended Resolution: 1366 x 768 )
 
 ### Live Video Demo🎥:
-
+https://www.linkedin.com/posts/akash-chandra-0a0622207_project-masaischool-activity-6825330808123863041-E284
 
 
 ## Team Members and Contributors 😇 :
