@@ -74,7 +74,8 @@ Not responsive yet and might not be properly visible on small screen devices
 (Recomended Resolution: 1366 x 768 )
 
 ### Live Video Demo🎥:
-https://www.linkedin.com/posts/akash-chandra-0a0622207_project-masaischool-activity-6825330808123863041-E284
+
+https://github.com/chandra-akash/Masai-Project-1/blob/main/zoom_4.mp4
 
 
 ## Team Members and Contributors 😇 :
