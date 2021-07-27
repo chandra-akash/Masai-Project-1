@@ -75,7 +75,7 @@ Not responsive yet and might not be properly visible on small screen devices
 
 ### Live Video Demo🎥:
 
-https://github.com/chandra-akash/Masai-Project-1/blob/main/zoom_4.mp4
+https://www.linkedin.com/posts/akash-chandra-0a0622207_project-masaischool-ugcPost-6825330491126771713-9hk4
 
 
 ## Team Members and Contributors 😇 :
