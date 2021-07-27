@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+        .d {
+            width: 90%;
+            height: 500px;
+            /* border: 1px solid black; */
+            margin: auto;
+            display: flex;
+            border-radius: 10px;
+        }
+
+        #a {
+            width: 60%;
+            height: 100%;
+
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/9f1b091f-b0ee-4920-8172-fb095c2d7a0b.png");
+            background-size: 750px;
+        }
+
+        #b {
+            /* width: 20%; */
+            height: 100%;
+            background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/83ea52e7-666f-4f60-8027-4f03e5bf9605.png");
+            background-size: 750px;
+
+        }
+
+        #c {
+            /* width: 20%; */
+            height: 100%;
+            background: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/6f98a852-e6ea-463c-8372-49dc8991b952.png");
+            background-size: 750px;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        #a:hover {
+            cursor: pointer;
+        }
+
+        #b:hover {
+            cursor: pointer;
+        }
+
+        #c:hover {
+            cursor: pointer;
+        }
+
+    </style>
+
+
+    <body>
+        <div style="margin-left: 5%;">
+            <img src="https://static.cure.fit/assets/images/mind-title.svg">
+        </div>
+        <div style="margin-left: 5%;">
+            <p style="font-size: x-large;font-weight: 800; float: left;">Mind and Body fitness</p>
+            <h1 style="font-size: x-large;font-weight: 800; float: right;">Explore</h1>
+        </div>
+        <div style="clear: both;margin-left: 5%;">
+            <p style="font-size:large;">Experience mindfulness with our guided yoga, meditation & therapy sessions.</p>
+        </div>
+
+
+
+        <div class="d">
+            <div id="a">
+
+                <div style="margin-left: 3%;">
+                    <div>
+                        <p style="color: white; font-size: 22px;">Online Therapy</p>
+                    </div>
+                    <div style="color: white; margin-top: 1%;">
+                        <p
+                            style="font-size: 14px; color: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                            Take care of your mental and emotional fitness <br>in a safe, calm,and non judgemental <br>
+                            environment </p>
+
+                    </div>
+                    <button style="border-radius: 10px;">BOOK NOW</button>
+                </div>
+
+            </div>
+
+
+            <div id="b" onmouseover="increaseB()" onmouseout="decreaseB()">
+                <div style="margin-left: 3%;">
+                    <div>
+                        <p style="color: white; font-size: 22px;">Meditation</p>
+                    </div>
+                    <div style="color: white; margin-top: 1%;">
+                        <p
+                            style="font-size: 14px; color: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                            Let go of stressful thoughts and feelings with<br>guided meditations that will relax your
+                            mind <br>and body </p>
+
+                    </div>
+                    <button style="border-radius: 10px;">KNOW MORE</button>
+                </div>
+
+            </div>
+            <div id="c" onmouseover="increaseC()" onmouseout="decreaseC()">
+                <div style="margin-left: 3%;">
+                    <div>
+                        <p style="color: white; font-size: 22px;">Sleep</p>
+                    </div>
+                    <div style="color: white; margin-top: 1%;">
+                        <p
+                            style="font-size: 14px; color: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                            Soothing guided meditations,stories and music<br>that will help you sleep better </p>
+
+                    </div>
+                    <button style="border-radius: 10px;color:black;">KNOW MORE</button>
+                </div>
+
+            </div>
+    </body>
+
+</html>
+
+
+<script>
+    function increaseB()
+    {
+        document.getElementById( "a" ).style.width = "20%";
+        document.getElementById( "b" ).style.width = "60%";
+        document.getElementById( "c" ).style.width = "20%";
+    }
+    function decreaseB()
+    {
+        document.getElementById( "a" ).style.width = "60%";
+        document.getElementById( "b" ).style.width = "20%";
+        document.getElementById( "c" ).style.width = "20%";
+    }
+    function increaseC()
+    {
+        setTimeout( function ()
+        {
+            document.getElementById( "a" ).style.width = "20%";
+            document.getElementById( "b" ).style.width = "20%";
+            document.getElementById( "c" ).style.width = "60%";
+        }, 300 )
+    }
+    function decreaseC()
+    {
+        document.getElementById( "a" ).style.width = "60%";
+        document.getElementById( "b" ).style.width = "20%";
+        document.getElementById( "c" ).style.width = "20%";
+    }
+</script>

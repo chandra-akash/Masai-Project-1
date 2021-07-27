@@ -1,0 +1,194 @@
+<html>
+    <style>
+        body {
+            margin-top: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #navBlock {
+            display: flex;
+            height: 62px;
+        }
+
+        #logo {
+            justify-content: left;
+            align-self: center;
+            margin: 18px;
+            margin-right: 10px;
+        }
+
+        #text {
+            font-family: 'BrandonTextWeb-Regular';
+            display: flex;
+            font-size: 25px;
+            font-weight: bold;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #cultsport {
+            margin-left: 475px;
+            margin-top: 10px;
+            justify-content: center;
+            align-self: center;
+            color: red;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        #posture {
+            height: 278px
+        }
+
+        #loccart {
+            display: flex;
+            align-self: center;
+            margin: 200px;
+            width: 400px;
+        }
+
+        #categories {
+            font-size: 19px;
+            color: rgb(102, 99, 99);
+            margin-left: 63px;
+            margin-top: 28px;
+        }
+
+        #itemTypes {
+            display: flex;
+            justify-content: space-between;
+            width: 87.5%;
+            margin: auto;
+            margin-left: 65px;
+            height: 187px;
+            margin-top: 13px;
+            margin-bottom: 15px;
+        }
+
+        #men,
+        #equipment,
+        #women {
+            width: 380px;
+            height: 187px;
+            border-radius: 20px;
+        }
+
+        #navitems {
+            display: flex;
+            margin-left: 400px;
+            justify-content: space-around;
+            justify-content: center;
+            align-content: center;
+        }
+
+        #navitems div {
+            justify-content: center;
+            align-self: center;
+            margin-left: 15px;
+        }
+
+        #profile {
+            align-self: center;
+            width: auto;
+            height: 65%;
+            margin-left: 15px;
+            margin-right: 0px;
+        }
+
+        #cart {
+            align-self: center;
+            width: auto;
+            height: 45%;
+            margin-left: 20px;
+        }
+
+        #arrow {
+            align-self: center;
+            width: auto;
+            height: 20%;
+            margin-left: 5px;
+        }
+
+        .popup_hid {
+            width: 100px;
+            height: 100px;
+            visibility: hidden;
+        }
+
+        .popup_show {
+            width: 100px;
+            height: 100px;
+            /* visibility:visible; */
+            float: right
+        }
+
+        .bod_hid {
+            filter: blur(2px)
+        }
+
+        #pop {
+            display: flex
+        }
+
+    </style>
+
+    <body>
+        <div id="bod">
+            <div id="navBlock">
+                <div id="logo">
+                    <image src="https://static.cure.fit/assets/images/curefit-v-man.svg"></image>
+                </div>
+                <div id="text">
+                    .fit Store
+                </div>
+                <div id="cultsport">
+                    cultsport
+                </div>
+                <div id="navitems">
+                    <div onclick="showLocation()" id="location">Mumbai</div>
+                    <image id="profile" src="https://static.cure.fit/assets/images/user-default.png"></image>
+                    <image id="arrow" src="https://static.cure.fit/assets/images/arrow-clp.svg"></image>
+                    <image id="cart" src="https://static.cure.fit/assets/images/cart-image.svg"></image>
+                </div>
+            </div>
+            <div>
+                <Image id="posture"
+                    src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:595/dpr_2/image/vm/06686285-3ce5-4528-b12b-a7ede9a3e744.png">
+                </Image>
+            </div>
+            <div id="categories">
+                CATEGORIES
+            </div>
+            <div id="itemTypes">
+                <div>
+                    <image id="men"
+                        src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_250,ar_155:78,c_fit/dpr_2/cultgear-content/assets/clp-category-men.png">
+                    </image>
+                </div>
+                <div>
+                    <image id="women"
+                        src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_250,ar_155:78,c_fit/dpr_2/cultgear-content/assets/clp-category-women.png">
+                    </image>
+                </div>
+                <div>
+                    <image id="equipment"
+                        src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_250,ar_155:78,c_fit/dpr_2/cultgear-content/assets/clp-category-footgear.png">
+                    </image>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
+<script>
+    var bod = document.getElementById( "bod" )
+    function showLocation()
+    {
+        bod.setAttribute( "class", "bod_hid" )
+        console.log( ( "jjj" ) )
+        let loc_list = document.createElement( "div" )
+        loc_list.setAttribute( "class", "popup_show" )
+        loc_list.innerHTML = "<div><div><ul><li>Pune</li><li>Hyderabad</li><li>Delhi</li></ul></div><div><ul><li>Pune</li><li>Hyderabad</li><li>Delhi</li></ul></div><div><ul><li>Pune</li><li>Hyderabad</li><li>Delhi</li></ul></div></div>"
+        loc_list.style.backgroundColor = "red"
+    }
+</script>

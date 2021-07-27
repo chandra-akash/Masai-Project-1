@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+        .d {
+            width: 90%;
+            height: 500px;
+            /* border: 1px solid black; */
+            margin: auto;
+            display: flex;
+            border-radius: 10px;
+        }
+
+        #a {
+            width: 60%;
+            height: 100%;
+
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/0f4c194a-3d2c-453c-8a3a-fdf20bd03699.png");
+            background-size: 750px;
+        }
+
+        #b {
+            width: 20%;
+            height: 100%;
+            background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/a319056a-2fbb-4d0f-a12d-6b47bf79deef.png");
+            background-size: 750px;
+
+        }
+
+        #c {
+            width: 20%;
+            height: 100%;
+            background: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/d9ef0d11-72e1-4e80-b1df-683a82fd692d.png");
+            background-size: 750px;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        #a:hover {
+            cursor: pointer;
+        }
+
+        #b:hover {
+            cursor: pointer;
+        }
+
+        #c:hover {
+            cursor: pointer;
+        }
+
+    </style>
+
+
+    <body>
+        <div style="margin-left: 5%;">
+            <img src="https://static.cure.fit/assets/images/care-title.svg">
+        </div>
+        <div style="margin-left: 5%;">
+            <p style="font-size: x-large;font-weight: 800; float: left;">Making health easy and accessible</p>
+            <h1 style="font-size: x-large;font-weight: 800; float: right;">Explore</h1>
+        </div>
+        <div style="clear: both;margin-left: 5%;">
+            <p style="font-size:large;">Book online doctor consultations and schedule diagnostic tests at home.</p>
+        </div>
+
+
+
+        <div class="d">
+            <div id="a">
+
+                <div style="margin-left: 3%;">
+                    <div>
+                        <p style="color:black; font-size: 22px;">Online Doctor Consultation</p>
+                    </div>
+                    <div style="color:black; margin-top: 1%;">
+                        <p
+                            style="font-size: 14px; color: black; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.8;">
+                            Consult with our doctors and specialists like <br> orthopedics, pediatricians and
+                            gynaecologists <br> for all your medical needs with minimum wait <br> time </p>
+
+                    </div>
+                    <button style="border-radius: 10px;">EXPLORE</button>
+                </div>
+
+            </div>
+
+
+            <div id="b" onmouseover="increaseB()" onmouseout="decreaseB()">
+                <div style="margin-left: 3%;">
+                    <div>
+                        <p style="color: black; font-size: 22px;">Home lab test</p>
+                    </div>
+                    <div style="color: black; margin-top: 1%;">
+                        <p
+                            style="font-size: 14px; color: black; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.8;">
+                            Assess & monitor your health from the comfort <br> of your home - get full body
+                            comprehensive <br> health-checkup with actionable medical and <br> lifestyle care advice.
+                        </p>
+
+                    </div>
+                    <button style="border-radius: 10px;">EXPLORE</button>
+                </div>
+
+            </div>
+            <div id="c" onmouseover="increaseC()" onmouseout="decreaseC()">
+                <div style="margin-left: 3%;">
+                    <div>
+                        <p style="color:black; font-size: 22px;">Online Dietician Consultation</p>
+                    </div>
+                    <div style="color: black; margin-top: 1%;">
+                        <p
+                            style="font-size: 14px; color: black; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.8;">
+                            Our nutritionist will help you manage your <br> health with personalised diets and fitness
+                            plans <br> based on your lifestyle preferences.</p>
+
+                    </div>
+                    <button style="border-radius: 10px;">CONSULT NOW</button>
+                </div>
+
+            </div>
+    </body>
+
+</html>
+
+
+<script>
+    function increaseB()
+    {
+        document.getElementById( "a" ).style.width = "20%";
+        document.getElementById( "b" ).style.width = "60%";
+        document.getElementById( "c" ).style.width = "20%";
+    }
+    function decreaseB()
+    {
+        document.getElementById( "a" ).style.width = "60%";
+        document.getElementById( "b" ).style.width = "20%";
+        document.getElementById( "c" ).style.width = "20%";
+    }
+    function increaseC()
+    {
+        setTimeout( function ()
+        {
+            document.getElementById( "a" ).style.width = "20%";
+            document.getElementById( "b" ).style.width = "20%";
+            document.getElementById( "c" ).style.width = "60%";
+        }, 300 )
+    }
+    function decreaseC()
+    {
+        document.getElementById( "a" ).style.width = "60%";
+        document.getElementById( "b" ).style.width = "20%";
+        document.getElementById( "c" ).style.width = "20%";
+    }
+</script>
