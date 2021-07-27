@@ -83,7 +83,7 @@ https://www.linkedin.com/posts/akash-chandra-0a0622207_project-masaischool-activ
   <li><i>Github:</i>https://github.com/NikhilGuptan</li><br>
   
   <b>👤 Sharad Dethe </b>
-  <li><i>Github:</i></li>https://github.com/Sharad13<br>
+  <li><i>Github:</i>https://github.com/Sharad13</li><br>
   
   <b>👤 Anup Kumar Pandey </b>
   <li><i>Github:</i>https://github.com/Anuppandey009</li><br>
