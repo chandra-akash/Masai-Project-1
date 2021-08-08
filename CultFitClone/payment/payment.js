@@ -7,7 +7,9 @@ function place(){
     let cvv = document.getElementById("cv").value;
    
     if (name != "" && number.length == 16 && cvv.length == 3) {
-        window.location.href = "ThankYouPopUp.html";
+        setTimeout(function () {
+            window.location.href = "../ThankYouPopUp/ThankYouPopUp.html";
+        },2000)
     } else {
         alert("Check All Field")
    }
@@ -16,6 +18,6 @@ function place(){
 
 function backTostore() {
         
-    window.location.href = "card.html";
+    window.location.href = "../card/card.html";
 
 }

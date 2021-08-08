@@ -37,25 +37,21 @@
     }
 
     #cultsport {
-        cursor: pointer;
-        display: flex;
-        margin-left: 528px;
+        margin-left: 36%;
         margin-top: 10px;
         justify-content: center;
         align-self: center;
+        color: red;
         font-size: 14px;
         font-weight: bold;
-        color: rgb(252, 46, 113);
     }
 
     #navitems {
         display: flex;
+        margin-left: 33%;
         justify-content: space-around;
         justify-content: center;
         align-content: center;
-        height: 40px;
-        margin-left: 332px;
-        margin-top: 10px;
     }
 
     #navitems div {

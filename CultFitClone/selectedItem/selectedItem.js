@@ -44,6 +44,8 @@ function itemAddedToCard(){
     arr.push(selected)
 
   localStorage.setItem('itemAddedToCard', JSON.stringify(arr))
+
+  alert("item Added To Cart")
   
 buyNow();
   
@@ -55,7 +57,7 @@ function buyNow() {
   var items = JSON.parse(localStorage.getItem("itemAddedToCard"));
 
   if (items.length>0) {
-    document.getElementById("buyNow").innerHTML = `View Card(${items.length})`;
+    document.getElementById("buyNow").innerHTML = `View Cart(${items.length})`;
 } else {
    document.getElementById("buyNow").innerHTML = `buy Now`;
   }
@@ -72,18 +74,18 @@ function cardPage() {
   if (buyNow == "buy Now") {
     alert("Please Add Some Item")
   } else {
-    window.location.href = "card.html";
+    window.location.href = "../card/card.html";
   }
 
 }
 
 
 function goToHome() {
-        window.location.href = "home.html"
+        window.location.href = "../home/home.html"
 }
     
 function card() {
 
-    window.location.href = "card.html";
+    window.location.href = "../card/card.html";
 
 }
