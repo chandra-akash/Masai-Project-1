@@ -70,7 +70,7 @@ In this project we were tried to achieve a near to perfect clone of the original
 This entire journey of making the project was awesome. We learned lots of things by applying to the real website and it gave us a lot of confidence. Although we could have done more, time did not allow us to go further. But we must improve it.
 
 ### Limitations:
-Not responsive yet and might not be properly visible on small screen devices
+Home page is fully responsive; all pages are not responsive yet , those pages are might not be properly visible on small screen devices
 (Recomended Resolution: 1366 x 768 )
 
 ### Live Video Demo🎥:
