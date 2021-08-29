@@ -11,7 +11,9 @@ Project-1: make a clone of https://www.cult.fit/ site
 <ul>
   <li>HTML</li>
   <li>CSS</li>
-  <li>JavaScript</li>
+  <li>NodeJS</li>
+  <li>Express</li>
+  <li>MongoDB-Atlas</li>
 </ul>
 Along with that, in order to store user data we also used LocalStorage (aka browser storage).
 
@@ -66,12 +68,8 @@ All the image and icon links have been taken from the main website ( https://www
 </ol>
 
 ### End Notes 📑
-In this project we were tried to achieve a near to perfect clone of the original website as much as possible with very limited knowledge of javascript & css. <br>
-This entire journey of making the project was awesome. We learned lots of things by applying to the real website and it gave us a lot of confidence. Although we could have done more, time did not allow us to go further. But we must improve it.
-
-### Limitations:
-Home page is fully responsive; all pages are not responsive yet , those pages are might not be properly visible on small screen devices
-(Recomended Resolution: 1366 x 768 )
+In this project we were tried to achieve a near to perfect clone of the original website as much as possible with very limited knowledge of javascript & css & Database. <br>
+This entire journey of making the project was awesome. We learned a lot of things while working on this project and it gave us a lot of confidence. This is my first project so I learned a very important thing that how we work in a team. Although we could have done more, time did not allow us to go further. But we must improve it.
 
 ### Live Video Demo🎥:
 
